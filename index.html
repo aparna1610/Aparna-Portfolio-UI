@@ -15,12 +15,14 @@
 
 <body>
   <nav id="desktop-nav">
-    <div class="logo"><img src="assets/logo1.png" class="logo"></div>
+    <div class="logo">
+      <!-- <img src="assets/logo1.png" class="logo"> -->
+    </div>
     <div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -36,7 +38,7 @@
       <div class="menu-links">
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
         <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
-        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#services" onclick="toggleMenu()">Services</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
@@ -51,10 +53,10 @@
       <p class="description">
         A passionate <span>UI developer</span> and
         <span>UX designer</span>
-        <span class="smallerText">(sometimes)</span> with a fervor for crafting immersive and visually stunning digital
+        with a fervor for crafting immersive and visually stunning digital
         experiences.
         In this space, I bring together a fusion of design and technology to create visually stunning and user-friendly
-        interfaces. ✨
+        interfaces.
       </p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/AparnaSurve_FrontendDeveloper.pdf')">
@@ -181,18 +183,30 @@
                 <p>Experienced</p>
               </div>
             </article>
-            <p>NOTE: For more, Please refer my resume.</p>
+              <p class="section__text__p1" style="margin-bottom: 20px;"><b>NOTE</b>: For more, Please refer my resume.</p>
           </div>
         </div>
       </div>
     </div>
-    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    <!-- <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" /> -->
   </section>
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Work</h1>
     <div class="experience-details-container">
       <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Cybage logo.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">System Analyst</h2>
+            <ul class="project-responsibility">
+              <li>Developed a responsive web application using Angular and Bootstrap.</li>
+              <li>Implemented state management using Redux for efficient data handling.</li>
+              <li>Collaborated with designers to create a user-friendly interface.</li>
+              <li>Optimized performance for better user experience.</li>
+            </ul>
+        </div>
         <div class="details-container color-container">
           <div class="article-container">
             <img src="./assets/Swisscom.png" alt="Project 1" class="project-img" />
@@ -208,7 +222,7 @@
         </div>
         <div class="details-container color-container">
           <div class="article-container">
-            <img src="./assets/infosys.png" alt="Project 2" class="project-img" />
+            <img src="./assets/Accenture2.png" alt="Project 2" class="project-img" />
           </div>
           <h2 class="experience-sub-title project-title">Technical Analyst</h2>
           <ul class="project-responsibility">
@@ -217,22 +231,9 @@
             <li>Take responsibility end-to-end, beyond just implementation - build it, run it, release it and maintain it.</li>
           </ul>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
-          <div class="project-responsibility">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-              Live Demo
-            </button>
-          </div>
-        </div>
       </div>
     </div>
+    <p class="section__text__p1" style="margin-bottom: 20px;"><b>NOTE</b>: For more, Please refer my resume.</p>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
   <section id="contact">
